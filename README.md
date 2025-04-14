@@ -1,5 +1,5 @@
 
-# 🛍️ Progressive Personalized Recommendation System
+# 🛍️ Personalized Recommendation System
 
 This project demonstrates a lightweight **personalized recommendation engine** using Python. It evolves recommendations for a shopping app based on **user interactions** (clicks/likes).
 
@@ -35,11 +35,6 @@ This project demonstrates a lightweight **personalized recommendation engine** u
 final_score = tag_match_count + category_match (1 or 0) + (popularity_score * 0.01)
 ```
 
-### 🤝 Collaborative Filtering (Simulated)
-- Products with higher popularity_score are considered **trendy**.
-
----
-
 ## 📂 File Structure
 
 | File         | Description |
@@ -47,7 +42,6 @@ final_score = tag_match_count + category_match (1 or 0) + (popularity_score * 0.
 | `products.csv` | Sample catalog of 20 products |
 | `users.csv`    | Simulated user interactions |
 | `recommend.py` | Python script implementing the full logic |
-| `user_profile_tags.png` | (optional) bar chart of tag frequency |
 
 ---
 
